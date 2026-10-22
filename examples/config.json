@@ -1,0 +1,13 @@
+{
+  "archive": "examples/archive",
+  "planner": {
+    "margin_bytes": 67108864,
+    "margin_percent": 2,
+    "allocation_unit": 32768,
+    "priorities": {
+      "platforms": {"text": 0},
+      "collections": {"bureau": 0},
+      "games": {"bureau-demo": 0}
+    }
+  }
+}

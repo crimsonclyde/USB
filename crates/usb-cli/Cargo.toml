@@ -1,0 +1,24 @@
+[package]
+name = "usb-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "usb"
+path = "src/main.rs"
+
+[dependencies]
+usb-core = { path = "../usb-core" }
+usb-transfer = { path = "../usb-transfer" }
+usb-device = { path = "../usb-device" }
+ctrlc = { version = "3.5.2", features = ["termination"] }
+serde.workspace = true
+serde_json.workspace = true
+clap = { version = "4.6.7", features = ["derive"] }
+
+[dev-dependencies]
+tempfile.workspace = true
+
+[lints]
+workspace = true

@@ -1,0 +1,30 @@
+{
+  "blockdevices": [
+    {
+      "kname": "sdb",
+      "path": "/dev/sdb",
+      "type": "disk",
+      "maj:min": "8:16",
+      "ro": false,
+      "tran": "usb",
+      "fstype": null,
+      "fsver": null,
+      "mountpoints": [null],
+      "size": 1000000000,
+      "pkname": null
+    },
+    {
+      "kname": "sdb1",
+      "path": "/dev/sdb1",
+      "type": "part",
+      "maj:min": "8:17",
+      "ro": false,
+      "tran": null,
+      "fstype": "vfat",
+      "fsver": "FAT32",
+      "mountpoints": [null],
+      "size": 990000000,
+      "pkname": "sdb"
+    }
+  ]
+}

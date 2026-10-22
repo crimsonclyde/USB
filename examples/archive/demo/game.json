@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "id": "bureau-demo",
+  "name": "An Empty Portal",
+  "platform": "text",
+  "collection": "bureau",
+  "release_year": 1984,
+  "priority": 0,
+  "redistribution_approved": true,
+  "approval_note": "Original repository demonstration text, distributed under the repository's AGPL-3.0-only licence. Not a third-party game.",
+  "filesystems": ["fat32", "exfat", "ext4"]
+}

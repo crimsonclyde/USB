@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "platforms": [{"id": "text", "name": "Text artefacts", "priority": 0}],
+  "collections": [{"id": "bureau", "name": "The Bureau's Test Archive", "priority": 0}]
+}
